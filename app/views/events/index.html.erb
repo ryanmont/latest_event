@@ -1,20 +1,10 @@
-<% @events.each do |event| %>
-    <a href=events/<%= event.id %>>
-      <div class="card mb-3">
-        <img class="card-img-top" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">
-            <%= event.title %>
-          </h4>
-          <p class="card-text">
-            <%= event.summary %>
-          </p>
-          <p class="card-text">
-            <small class="text-muted">
-              <%= event.updated_at %>
-            </small>
-          </p>
-        </div>
-      </div>
-    </a>
-<% end %>
+ <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
