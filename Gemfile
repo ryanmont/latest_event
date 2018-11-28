@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 
 gem 'materialize-sass', '~> 0.100.1'
+
+gem 'rename', '~> 1.0', '>= 1.0.6'
+

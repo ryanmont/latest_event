@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: event_app_development
+  database: new_event_development
   pool: 5
   username: 
   password:
@@ -9,7 +9,7 @@ development:
 test: &TEST
   adapter: postgresql
   encoding: utf8
-  database: event_app_test
+  database: new_event_test
   pool: 5
   username: 
   password:
@@ -17,7 +17,7 @@ test: &TEST
 production:
   adapter: postgresql
   encoding: utf8
-  database: event_app_production
+  database: new_event_production
   pool: 5
   username: 
   password:
