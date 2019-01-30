@@ -3,7 +3,7 @@ class AttendeesController < ApplicationController
   before_action :set_attendee, only: [:show, :edit, :update, :destroy]
 
   def index
-    @attendees = Attendees.all
+    @attendees = Attendee.all
   end
 
   def show

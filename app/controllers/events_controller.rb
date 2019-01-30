@@ -40,12 +40,12 @@ class EventsController < ApplicationController
     end
   end
 
-<<<<<<< HEAD
+
   def show
   end
 
 
-=======
+
   def destroy
 
     @event.destroy
@@ -66,5 +66,5 @@ class EventsController < ApplicationController
     params.require(:event).permit(:title, :summary, :location, :event_date, :approved_ids, :max_attendees)
   end
 
->>>>>>> b0b548c5ad09c737b173b87689011311aa9cdb12
+
 end
